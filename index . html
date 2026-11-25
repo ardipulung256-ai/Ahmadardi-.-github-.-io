@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Ahmad Ardi</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h1 {
+            font-size: 45px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 span {
+            color: #38bdf8;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 30px;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+        }
+
+        .about {
+            background: #1e293b;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            line-height: 1.8;
+        }
+
+        .skills {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .skills h2 {
+            color: #38bdf8;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            display: inline-block;
+            background: #1e293b;
+            padding: 25px;
+            margin: 10px;
+            border-radius: 12px;
+            width: 200px;
+        }
+
+        footer {
+            background: #1e293b;
+            text-align: center;
+            padding: 25px;
+            color: #cbd5e1;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>AHMAD ARDI</h2>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <a href="#skills">Keahlian</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <h1>Halo, Saya <span>Ahmad Ardi</span></h1>
+
+    <p>
+        Selamat datang di website pribadi saya.<br>
+        Saya seorang mahasiswa yang sedang belajar
+        teknologi dan pemrograman web.
+    </p>
+
+    <a href="#about" class="button">Kenali Saya</a>
+
+</section>
+
+<section class="about" id="about">
+
+    <h2>Tentang Saya</h2>
+
+    <p>
+        Nama saya Ahmad Ardi.<br>
+        Saya memiliki ketertarikan dalam dunia teknologi,
+        komputer, dan pengembangan website.<br>
+        Saya terus belajar untuk meningkatkan kemampuan
+        di bidang pemrograman.
+    </p>
+
+</section>
+
+<section class="skills" id="skills">
+
+    <h2>Keahlian Saya</h2>
+
+    <div class="card">
+        <h3>HTML</h3>
+        <p>Membuat struktur website.</p>
+    </div>
+
+    <div class="card">
+        <h3>CSS</h3>
+        <p>Mendesain tampilan website.</p>
+    </div>
+
+    <div class="card">
+        <h3>Python</h3>
+        <p>Belajar dasar pemrograman.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Ahmad Ardi | Website Portfolio</p>
+</footer>
+
+</body>
+</html>
